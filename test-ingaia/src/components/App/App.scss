@@ -5,4 +5,16 @@
 body {
   margin: 0;
   padding: 0;
+  color: #eccc6c;
+  background: url("/background.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.btn:focus {
+  box-shadow: none !important;
+}
+
+.btn:hover {
+  color: #eccc6c;
 }

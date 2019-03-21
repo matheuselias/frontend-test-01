@@ -1,0 +1,60 @@
+.row {
+  height: 100vh;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+  color: white;
+}
+
+.form-signin input {
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #eccc6c;
+  border-radius: 0 !important;
+  color: white;
+}
+
+input:focus {
+  border: none !important;
+  background: transparent !important;
+  border-bottom: 1px solid #eccc6c !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+
+.form-signin label {
+  float: left;
+}
+
+.form-signin button {
+  color: #eccc6c;
+}
+
+.img-fluid {
+  width: 100%;
+}
+
+.btn-login {
+  border: 1px solid #eccc6c;
+  border-radius: 0;
+  color: #eccc6c;
+  width: 50%;
+  margin-top: 2rem;
+}

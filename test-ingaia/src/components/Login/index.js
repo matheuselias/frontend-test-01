@@ -1,9 +1,16 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
+import { signin } from 'actions';
+
 import 'components/Login/Login.scss';
 
-export default class Login extends Component {
-  handleSubmit(event) {
+class Login extends Component {
+  handleSubmit = (event) => {
     event.preventDefault();
+
+    this.props.signin(() => {
+      this.props.history.push('/home');
+    });
   }
 
   render() {
@@ -30,3 +37,5 @@ export default class Login extends Component {
     );
   }
 }
+
+export default connect(null, { signin })(Login);

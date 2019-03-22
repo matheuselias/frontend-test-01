@@ -2,13 +2,27 @@
   padding: 0;
 }
 
-.card {
-  width: 90% !important;
-  height: 15rem;
+.trailer-card {
+  border: 1px solid #eccc6c;
+  padding: 2px;
 }
 
 .trailers {
   background: linear-gradient(to right, rgba(0,0,0,0.9), rgba(0,0,0,0.4));
-  overflow: scroll;
+  overflow-y: scroll;
+  overflow-x: hidden;
   height: 100vh;
 }
+
+.video {
+  width: 70vw;
+  height: 70vh;
+}
+
+.btn-trailer {
+  border: 1px solid #eccc6c;
+  color: #eccc6c;
+  width: 100%;
+  border-radius: 0;
+}
+

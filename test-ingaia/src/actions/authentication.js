@@ -8,3 +8,10 @@ export const signin = (callback) => {
     payload: true
   };
 }
+
+export const signout = () => {
+  return {
+    type: AUTHENTICATE_USER,
+    payload: false
+  };
+}

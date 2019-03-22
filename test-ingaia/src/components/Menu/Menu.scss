@@ -1,0 +1,45 @@
+.menu {
+  border-right: 1px solid white;
+}
+
+.logo {
+  width: 80%;
+  height: 50%;
+  padding: 10%;
+}
+
+.btn-trailer {
+  border: 1px solid #eccc6c;
+  color: #eccc6c;
+  width: 100%;
+  border-radius: 0;
+}
+
+.btn-logout {
+  color: white;
+  width: 70%;
+}
+
+@media (max-width: 768px) { 
+  .logo {
+    width: 100%;
+    height: 100%;
+    float: left;
+    padding: 5%;
+  }
+
+  .btn-trailer, .btn-logout {
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .menu > .row {
+    height: 5rem;
+  }
+}
+
+@media (min-width: 768px) { 
+  .btn-group {
+    height: 5rem;
+  }
+}

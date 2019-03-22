@@ -40,7 +40,7 @@ class Home extends Component{
     return (
       <div className="container-fluid">
         <div className="row">
-          <Menu />
+          <Menu getTrailers={this.getTrailers} />
           <TrailerList getTrailer={this.getTrailer} getTrailers={this.getTrailers} trailers={this.props.trailers} />
         </div>
         <Modal show={this.state.showModal} handleClose={this.hideModal}>

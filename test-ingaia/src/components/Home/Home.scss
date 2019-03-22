@@ -11,12 +11,6 @@
   background: linear-gradient(to right, rgba(0,0,0,0.9), rgba(0,0,0,0.4));
   overflow-y: scroll;
   overflow-x: hidden;
-  height: 100vh;
-}
-
-.video {
-  width: 70vw;
-  height: 70vh;
 }
 
 .btn-trailer {
@@ -26,3 +20,12 @@
   border-radius: 0;
 }
 
+@media (max-width: 768px) { 
+  .trailers {
+    height: calc(100vh - 5rem);
+  }
+
+  .btn-trailer {
+   width: 6rem;
+  }
+}
